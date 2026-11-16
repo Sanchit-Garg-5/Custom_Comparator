@@ -74,7 +74,7 @@ int main(){
     sort(v3.begin(), v3.end(), someclass::vecComp);
 }  
 
-//FOR PRIORITY_QUEUES, CUSTOM COMPARATOR SHOW OPPOSITE BEHAVIOUR TO NORMAL SORTING. LIKE return a<b : means increasing, but for priority queue it would create a MAX HEAP(Descending priority).
+//FOR PRIORITY_QUEUES, CUSTOM COMPARATOR SHOW OPPOSITE BEHAVIOUR TO NORMAL SORTING BEHAVIOUR OF CUSTOM COMPARATOR. LIKE return a<b : means increasing, but for priority queue it would create a MAX HEAP(Descending priority).
 //so use opposite to get desired results.
 int main(){
     cin.tie(nullptr); cout.tie(nullptr); ios::sync_with_stdio(false);
